@@ -1,0 +1,36 @@
+.portfolioSuperImage {
+    margin: auto;
+    display: block;
+}
+
+#SuperImageTopLeft {
+    border-top-left-radius: 5em;
+}
+
+#SuperImageTopRight {
+    border-top-right-radius: 2em;
+}
+
+#SuperImageBottomLeft {
+    border-bottom-left-radius: 2em;
+}
+
+#SuperImageBottomRight {
+    border-bottom-right-radius: 2em;
+}
+
+#SickLogo {
+    width: 5em;
+}
+
+#TravelBugPic {
+    width: 42em;
+    margin-left: 20.3em;
+    position: absolute;
+}
+
+#TravelBugPicWrapper {
+    width: 42em;
+    margin-left: 20.3em;
+    position: absolute;
+}

@@ -15,6 +15,10 @@ module.exports = {
   module: {
     loaders: [
       {
+        test: /Stylesheets\.elm$/,
+        loader: "style!css!elm-css-webpack"
+      },
+      {
         test: /\.(css|scss)$/,
         loaders: [
           'style-loader',
@@ -28,7 +32,7 @@ module.exports = {
       },
       {
         test:    /\.elm$/,
-        exclude: [/elm-stuff/, /node_modules/],
+        exclude: [/elm-stuff/, /node_modules/, /Stylesheets.elm/],
         loader:  'elm-webpack',
       },
       {
@@ -38,7 +42,7 @@ module.exports = {
       {
         test: /\.(ttf|eot|svg)(\?v=[0-9]\.[0-9]\.[0-9])?$/,
         loader: 'file-loader',
-      },
+      }
     ],
 
     noParse: /\.elm$/,
@@ -48,6 +52,4 @@ module.exports = {
     inline: true,
     stats: { colors: true },
   },
-
-
 };
