@@ -61,7 +61,7 @@ aboutCard model =
             ]
           , Card.menu [] []
           , Card.text []
-            [ text "I have a Retailing and Consumer Science degree from the University of Arizona. I found User Experience Design just over four months ago and felt that it fit my personality. I love being able to discover ways to apply design thinking principles to solve people's biggest pain points as well as finding solutions. By designing apps to improve people's lives my design skills have become more defined." ]
+            [ text "Thomas Rodriguez is a developer in San Diego. He enjoys sand beneath his feet or the warm glow of vim." ]
           , Card.text []
             [ text "If you want to take a look at my resume click here or send an email" ]
         ]
