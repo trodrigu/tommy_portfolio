@@ -44,7 +44,7 @@ aboutCard model =
                     , Options.css "margin-top" "1em"
                     , Options.css "margin-left" "8px"
                   ]
-                [ text "Ashley Albright | User Experience Designer" ]
+                [ text "Tommy Rodriguez | User Experience Designer" ]
               ]
             ]
           , Card.menu [] []

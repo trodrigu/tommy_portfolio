@@ -56,7 +56,7 @@ aboutCard model =
                     , Options.css "margin-top" "1em"
                     , Options.css "margin-left" "8px"
                   ]
-                [ text "Ashley Albright | User Experience Designer" ]
+                [ text "Tommy Rodriguez | User Experience Designer" ]
               ]
             ]
           , Card.menu [] []
@@ -423,7 +423,7 @@ footer =
   Footer.mini []
     { left =
         Footer.left []
-          [ Footer.logo [] [ Footer.html <| text "Ashley Albright" ]
+          [ Footer.logo [] [ Footer.html <| text "Tommy Rodriguez" ]
           , Footer.links []
               [ Footer.linkItem
                 [ Footer.href "/"
