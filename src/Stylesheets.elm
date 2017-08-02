@@ -18,7 +18,7 @@ main : Program Never
 main =
     Html.program
         { init = ( (), files cssFiles )
-        , view = \_ -> (div [] [])
+        , view = \_ -> div [] []
         , update = \_ _ -> ( (), Cmd.none )
         , subscriptions = \_ -> Sub.none
         }
